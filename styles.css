@@ -56,7 +56,9 @@ body {
   );
   z-index: 2;
 }
-
+label {
+  padding-top: 35px;
+}
 .hamster {
   animation: hamster var(--dur) ease-in-out infinite;
   top: 50%;
